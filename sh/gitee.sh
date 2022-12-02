@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # gitee上的私人令牌
-token=""
+token=
 # 提交文件的消息
 msg="version 1.0-- $(date +%Y-%m-%d) $(date +%H:%M:%S)"
 # 注册仓库后仓库地址中的用户名
-owner=""
+owner=
 # 注册仓库后仓库地址中的仓库名
-repo_name=""
+repo_name=
 
 declare -a result=()
 
