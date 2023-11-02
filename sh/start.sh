@@ -1,8 +1,8 @@
 #!/bin/bash
 
 isCheck=yes
-smms_token=hudqJ64LRReVTGZDJzBEOOyVWXNRhgy0
-github_token="Bearer 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"
+smms_token=
+github_token="Bearer "
 
 for var in "$@"; do
   path=/d/markdown
